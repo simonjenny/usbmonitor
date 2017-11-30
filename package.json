@@ -1,11 +1,11 @@
 {
   "name": "usbmonitor",
-  "version": "1.0.0",
-  "description": "Node Module to Monitor USB Ports",
+  "version": "1.0.1",
+  "description": "CLI App to Monitor USB Ports",
   "bin": {
-    "usbmonitor": "bin/app.js"
+    "usbmonitor": "app.js"
   },
-  "main" : "bin/app.js",
+  "main" : "app.js",
   "preferGlobal": "true",
   "author": "Simon Jenny",
   "dependencies": {
