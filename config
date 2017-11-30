@@ -1,3 +1,0 @@
-[01a7615ce0b57f6296e2ac2bbb84d593]
-add= osascript -e 'display notification "USB Added!" with title "USBmonitor"'
-remove= osascript -e 'display notification "USB Removed!" with title "USBmonitor"'
