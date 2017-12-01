@@ -6,7 +6,7 @@ You can add hooks for insertion and removal of devices.
 ## Installation
 
 You can install usbmonitor via npm:
-`npm -g install https://github.com/simonjenny/usbmonitor.git`
+`npm -g install usbmonitor`
 
 ## Configfile
 
