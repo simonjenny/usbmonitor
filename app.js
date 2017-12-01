@@ -6,8 +6,8 @@ var argv = require('minimist')(process.argv);
 var _config = (argv.config) ? argv.config : process.env.HOME + "/.config/usbmonitor";
 
 if (!fs.existsSync(_config)){
-  console.error("Config File not Found! (Looked at given path with Parameter --config or ~/.config/usbmonitor)");
-  process.exit();
+  console.info("Config File not Found! (Looked at given path with Parameter --config or ~/.config/usbmonitor)");
+  console.info("Starting in Info Mode only! Insert USB Device to generate UUID")
 } else {
   var ini = require('ini');
   var config = ini.parse(fs.readFileSync(_config, 'utf-8'));
