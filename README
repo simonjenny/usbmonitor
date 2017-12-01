@@ -1,16 +1,16 @@
-#usbmonitor
+# usbmonitor
 
 usbmonitor is a cli tool to monitor usb ports for usb devices.
 You can add hooks for insertion and removal of devices.
 
-##Installation
+## Installation
 
 You can install usbmonitor via npm:
 ```
 npm -g install https://github.com/simonjenny/usbmonitor.git
 ```
 
-##Configfile
+## Configfile
 
 usbmonitor looks for a config file in ~/.config/usbmonitor or the
 file given at the --config command line parameter.
