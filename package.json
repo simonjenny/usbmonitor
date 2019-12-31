@@ -13,6 +13,6 @@
     "ini": "^1.3.4",
     "md5": "^2.2.1",
     "minimist": "^1.2.0",
-    "usb-detection": "^1.4.2"
+    "usb-detection": "^4.7.0"
   }
 }
